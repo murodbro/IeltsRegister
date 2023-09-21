@@ -18,6 +18,8 @@ PHONE_NUMBER = "901402048"
 
 COUNTRY = "Uzbekistan"
 
+LANGUAGE = "Uzbek"
+
 ZIP_CODE = "170800"
 
 VILOYAT = "Andijon"

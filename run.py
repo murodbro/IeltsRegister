@@ -12,6 +12,6 @@ run.search_button()
 run.date_of_test(test_day=7, test_month="October".capitalize(), test_year=2023)
 # run.user_authentication()
 run.login_user()
-# run.prifile_details()
+run.prifile_details()
 input()
 

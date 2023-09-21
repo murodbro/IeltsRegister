@@ -15,7 +15,6 @@ from register.profile import Profile
 class Register(webdriver.Chrome):
     def __init__(self):
         options = webdriver.ChromeOptions()
-        options.add_argument("--start-maximized")
         super().__init__(options=options)
 
 
@@ -120,18 +119,23 @@ class Register(webdriver.Chrome):
         user_login.login_button()
         user_login.login(email=const.EMAIL, password=const.PASSWORD)
         user_login.booking_for(myself=True)
+        time.sleep(2)
         user_login.continue_button()
         user_login.identification_details(passport=True)
         user_login.identification(day=const.EXPIRE_DAY, month=const.EXPIRE_MONTH, year=const.EXPIRE_YEAR,
             number=const.PASSPORT, issuing=const.ISSUING_AUTH, nation=const.COUNTRY)
+        time.sleep(2)
         user_login.upload_image(path="D:\doc\passport.jpg")
+        user_login.button()
 
 
     def prifile_details(self):
 
         self.implicitly_wait(15)
         profile = Profile(driver=self)
-        profile.about(language=const.COUNTRY, studing_year=const.STUDING_YEAR, education_level=const.SECONDARY)
+        profile.about(language=const.LANGUAGE, studing_year=const.STUDING_YEAR, education_level=const.SECONDARY)
+        profile.occupation(country=const.COUNTRY)
+        profile.button()
 
 
 

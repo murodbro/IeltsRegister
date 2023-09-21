@@ -3,13 +3,14 @@ import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.remote.webelement import WebElement
+from selenium.webdriver.remote.webdriver import WebDriver
 
 
 
 class LoginUser:
-    def __init__(self, driver:WebElement):
+    def __init__(self, driver: WebDriver):
         self.driver = driver
         self.driver.implicitly_wait(10)
 
@@ -34,6 +35,7 @@ class LoginUser:
 
 
     def booking_for(self, myself: bool = False, my_child: bool = False):
+        self.driver.implicitly_wait(15)
 
         if not(myself == True and my_child == True):
 
@@ -52,6 +54,7 @@ class LoginUser:
 
 
     def continue_button(self):
+        self.driver.implicitly_wait(15)
         time.sleep(3)
         button = WebDriverWait(self.driver, 15).until(EC.visibility_of_element_located((By.XPATH,
                                 '//div[@data-testid="page-container"]//button[@data-testid="save-and-continue"]')))
@@ -59,6 +62,7 @@ class LoginUser:
 
     
     def identification_details(self, passport: bool = True, id: bool = False):
+        self.driver.implicitly_wait(15)
         if not(passport == True and id == True):
 
             if passport:
@@ -73,9 +77,11 @@ class LoginUser:
     
 
     def identification(self, number, day, month, year, issuing, nation):
+        self.driver.implicitly_wait(15)
 
         number_element = self.driver.find_element(By.ID, "id-number")
-        number_element.clear()
+        number_element.send_keys(Keys.CONTROL + "a")
+        number_element.send_keys(Keys.DELETE)
         number_element.send_keys(number)
 
         day_element = self.driver.find_element(By.ID, "expiryDate-7")
@@ -88,8 +94,10 @@ class LoginUser:
         year_element.send_keys(year)
 
         issuing_auth = self.driver.find_element(By.ID, "issuingAuthority-8")
-        issuing_auth.clear()
+        issuing_auth.send_keys(Keys.CONTROL + "a")
+        issuing_auth.send_keys(Keys.DELETE)
         issuing_auth.send_keys(issuing)
+
 
         nationality = self.driver.find_element(By.XPATH,
             '//div[@id="select-country"]//div[@class="select-search__value"]//input[@class="select-search__input"]')
@@ -105,36 +113,22 @@ class LoginUser:
         choose_button.clear()
         choose_button.send_keys(path)
 
-        remove_file = WebDriverWait(self.driver, 30).until(EC.visibility_of_element_located((By.XPATH,
-                '//div[@data-testid="upload-back"]//div[@class]//div[@class]//div[@class]//button[@class="btn-link link"]')))
         time.sleep(3)
-        if remove_file:
-            print("ishladi")
+        remove_file = WebDriverWait(self.driver, 60).until(EC.visibility_of_element_located((By.XPATH,
+                '//div[@data-testid="upload-back"]//button[@class="btn-link link"]')))
+        exist = True
+        time.sleep(2)
+        if exist:
             remove_file.click()
+        time.sleep(2)
 
+    def button(self):
 
-        # try:
-        #     remove_file = WebDriverWait(self.driver, 30).until(EC.visibility_of_element_located((By.XPATH,
-        #         '//div[@data-testid="upload-back"]//div[@class]//div[@class]//div[@class]//button[@class="btn-link link"]')))
-        #     print("ishladi")
-        #     remove_file.click()
+        continue_button = WebDriverWait(self.driver, 15).until(EC.visibility_of_element_located((By.XPATH,
+            '//div[@data-testid="page-container"]//button[@data-testid="save-and-continue"]')))
+        continue_button.click()
 
-        # except Exception as e:
-        #     print(e)
-        #     print("ishlamadi")
+        confirmation = WebDriverWait(self.driver, 15).until(EC.visibility_of_element_located((By.CSS_SELECTOR,
+                                    'button[data-testid="confirm-modal-submit"]')))
+        confirmation.click()
 
-
-        # time.sleep(3)
-        # continue_button = self.driver.find_element(By.XPATH,
-        #     '//div[@data-testid="page-container"]//button[@data-testid="save-and-continue"]')
-        # continue_button.click()
-
-        # confirmation = WebDriverWait(self.driver, 15).until(EC.visibility_of_element_located((By.CSS_SELECTOR,
-        #                             'button[data-testid="confirm-modal-submit"]')))
-        # confirmation.click()
-
-
-
-
-
-        
