@@ -14,17 +14,18 @@ class LoginUser:
         self.driver = driver
         self.driver.implicitly_wait(10)
 
-    
+
     def login_button(self):
 
-        button = WebDriverWait(self.driver, 15).until(EC.presence_of_element_located((By.XPATH, 
+        button = WebDriverWait(self.driver, 30).until(EC.presence_of_element_located((By.XPATH, 
                 '//div[@data-testid="page-container"]//div[@class="bc-quote bc-quote-gray css-djt9ab"]//button[@class="btn-link link link"]')))
+        time.sleep(1)
         button.click()
 
     
     def login(self, email, password):
 
-        email_element = self.driver.find_element(By.ID, "login-field")
+        email_element = WebDriverWait(self.driver, 15).until(EC.visibility_of_element_located((By.ID, "login-field")))
         email_element.send_keys(email)
 
         password_element = self.driver.find_element(By.ID, "password_login")
@@ -40,7 +41,8 @@ class LoginUser:
         if not(myself == True and my_child == True):
 
             if myself:
-                myself_element = self.driver.find_element(By.CSS_SELECTOR, 'input[data-testid="for-myself"]')
+                myself_element = WebDriverWait(self.driver, 15).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'input[data-testid="for-myself"]')))
+                myself_element.click()
                 myself_element.click()
 
             elif my_child:
@@ -113,14 +115,18 @@ class LoginUser:
         choose_button.clear()
         choose_button.send_keys(path)
 
-        time.sleep(3)
-        remove_file = WebDriverWait(self.driver, 60).until(EC.visibility_of_element_located((By.XPATH,
-                '//div[@data-testid="upload-back"]//button[@class="btn-link link"]')))
-        exist = True
-        time.sleep(2)
-        if exist:
-            remove_file.click()
-        time.sleep(2)
+        try:
+            time.sleep(3)
+            remove_file = WebDriverWait(self.driver, 60).until(EC.visibility_of_element_located((By.XPATH,
+                    '//div[@data-testid="upload-back"]//button[@class="btn-link link"]')))
+            exist = True
+            time.sleep(2)
+            if exist:
+                remove_file.click()
+            time.sleep(2)
+        except Exception as e:
+            print(str(e))
+
 
     def button(self):
 

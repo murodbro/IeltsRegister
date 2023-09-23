@@ -1,3 +1,5 @@
+import time
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
@@ -20,7 +22,8 @@ class Authentication:
     def create_account(self, email, confirm_email, password):
 
         email_element = self.driver.find_element(By.CSS_SELECTOR, 'input[name="email"]')
-        email_element.send_keys(email)
+        email_element.send_keys(Keys.CONTROL + "a")
+        email_element.send_keys(Keys.DELETE)
         email_element.send_keys(email)
 
 
@@ -29,16 +32,20 @@ class Authentication:
 
         password_element = self.driver.find_element(By.CSS_SELECTOR, 'input[type="password"]')
         password_element.send_keys(password)
+        time.sleep(1)
 
 
     def booking_for(self, myself: bool = False, my_child: bool = False):
+        time.sleep(1)
 
         if not(myself == True and my_child == True):
             if myself:
-                myself_element = self.driver.find_element(By.CSS_SELECTOR, 'input[data-testid="for-myself"]')
+                myself_element = WebDriverWait(self.driver, 15).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'input[data-testid="for-myself"]')))
+                myself_element.click()
                 myself_element.click()
             elif my_child:
-                my_child_element = self.driver.find_element(By.CSS_SELECTOR, 'input[data-testid="new-child"]')
+                my_child_element = WebDriverWait(self.driver, 15).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'input[data-testid="new-child"]')))
+                my_child_element.click()
                 my_child_element.click()
             else:
                 print("Choose one of this: myself or my_child")
@@ -116,6 +123,10 @@ class Authentication:
         agree_button = self.driver.find_element(By.ID, "acceptIeltsTermsAndConditions-10")
         agree_button.click()
 
-        # button = self.driver.find_element(By.CSS_SELECTOR, 'input[data-testid="save-and-continue"]')
-        continue_button = WebDriverWait(self.driver, 15).until(EC.visibility_of_element_located((By.CSS_SELECTOR, 'input[data-testid="save-and-continue"]')))
+
+    def save_button(self):
+
+        continue_button = WebDriverWait(self.driver, 15).until(EC.visibility_of_element_located((By.XPATH, 
+                            '//div[@data-testid="page-container"]//button[@class="btn btn-primary"]')))
         continue_button.click()
+

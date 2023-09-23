@@ -12,10 +12,10 @@ from register.login import LoginUser
 from register.profile import Profile
 
 
-class Register(webdriver.Chrome):
-    def __init__(self):
-        options = webdriver.ChromeOptions()
-        super().__init__(options=options)
+class Register(webdriver.Firefox):
+    # def __init__(self):
+    #     options = webdriver.ChromeOptions()
+    #     super().__init__(options=options)
 
 
     def get_url(self):
@@ -36,7 +36,7 @@ class Register(webdriver.Chrome):
     
 
     def search_box(self, country, city):
-        country_search = WebDriverWait(self, 30).until(EC.element_to_be_clickable((By.CLASS_NAME, "select-search__input")))
+        country_search = WebDriverWait(self, 45).until(EC.element_to_be_clickable((By.CLASS_NAME, "select-search__input")))
         country_search.clear()
         country_search.send_keys(country)
         country_search.send_keys(Keys.ARROW_DOWN)
@@ -83,7 +83,7 @@ class Register(webdriver.Chrome):
             exam_year = int(date_list[2].strip().replace(",", ""))
             all_dates.append([exam_day, exam_month, exam_year])
 
-        for index, date in enumerate(all_dates):            
+        for index, date in enumerate(all_dates):
             if date[0] == test_day and date[1] == test_month and date[2] == test_year:
                 cases = False
                 click_buttons = self.find_elements(By.CLASS_NAME, "css-1gklrnv")
@@ -103,6 +103,7 @@ class Register(webdriver.Chrome):
         self.implicitly_wait(15)
         user_auth = Authentication(driver=self)
         user_auth.create_account(email=const.EMAIL, confirm_email=const.EMAIL, password=const.PASSWORD)
+        self.implicitly_wait(10)
         user_auth.booking_for(myself=True)
         user_auth.personal_data(first_name=const.NAME, last_name=const.LAST_NAME,
                                 birthday=const.BIRTHDAY, birthday_month=const.BIRTHDAY_MONTH, birthday_year=const.BIRTHDAY_YEAR)
@@ -110,6 +111,7 @@ class Register(webdriver.Chrome):
         user_auth.contact_details(phone_number=const.PHONE_NUMBER, home_country=const.COUNTRY)
         user_auth.address(tuman=const.TUMAN, viloyat=const.VILOYAT, mfy=const.MFY, zip_code=const.ZIP)
         user_auth.marketing_preference()
+        user_auth.save_button()
 
 
     def login_user(self):
@@ -135,7 +137,34 @@ class Register(webdriver.Chrome):
         profile = Profile(driver=self)
         profile.about(language=const.LANGUAGE, studing_year=const.STUDING_YEAR, education_level=const.SECONDARY)
         profile.occupation(country=const.COUNTRY)
-        profile.button()
+        time.sleep(1)
+        profile.button_pr()
+
+    
+    def check_account(self, email):
+
+        email_element = self.find_element(By.CSS_SELECTOR, 'input[name="email"]')
+        email_element.send_keys(email)
+        email_confirm = self.find_element(By.ID, "confirmEmail-2")
+        email_confirm.click()
+        exist = False
+
+        try:
+            login_element = WebDriverWait(self, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'button[data-testid="go-to-LogIn"]')))
+            exist = True
+            login_element.click()
+        
+        except Exception as e:
+            print(str(e))
+
+        if exist:
+            Register.login_user(self=self)
+            Register.prifile_details(self=self)
+        
+        else:
+            Register.user_authentication(self=self)
+
+
 
 
 

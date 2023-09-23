@@ -73,7 +73,7 @@ class Profile:
         country_element.send_keys(Keys.RETURN)
 
 
-    def button(self):
+    def button_pr(self):
          
         button_element = WebDriverWait(self.driver, 15).until(EC.visibility_of_element_located((By.CSS_SELECTOR,
             'button[data-testid="save-and-continue"]')))
