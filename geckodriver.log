@@ -3301,3 +3301,108 @@ JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFou
 Dynamically enable window occlusion 1
 ack to a synchronous message for: https://ieltsregistration.britishcouncil.org."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+JavaScript warning: https://ieltsregistration.britishcouncil.org/static/js/main.9baf4b04.js, line 2: Script terminated by timeout at:
+c@https://ieltsregistration.britishcouncil.org/static/js/main.9baf4b04.js:2:1090634
+
+1695509873091	Marionette	INFO	Stopped listening on port 53435
+Dynamically enable window occlusion 1
+profileEaVqFs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695508458529	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695508458585	Marionette	INFO	Listening on port 54045
+WebDriver BiDi listening on ws://127.0.0.1:54018
+Read port: 54045
+1695508458751	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54018/devtools/browser/84907580-5116-4a5c-b062-7c35e7cb6127
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://eamidentity.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://eamidentity.britishcouncil.org."
+JavaScript warning: https://ieltsregistration.britishcouncil.org/static/js/main.9baf4b04.js, line 2: Script terminated by timeout at:
+c@https://ieltsregistration.britishcouncil.org/static/js/main.9baf4b04.js:2:1090634
+
+1695508490035	Marionette	INFO	Stopped listening on port 54045
+Dynamically enable window occlusion 1
+console.warn: services.settings: main/devtools-compatibility-browsers sync interrupted by shutdown
+console.warn: services.settings: main/sites-classification sync interrupted by shutdown
+console.warn: services.settings: main/anti-tracking-url-decoration sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/tracking-protection-lists getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1695508511357	geckodriver	INFO	Listening on 127.0.0.1:54198
+1695508514414	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54199" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Murodjon\\AppData\\Local\\Temp\\rust_mozprofile4kRXRi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695508514652	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695508514711	Marionette	INFO	Listening on port 54223
+WebDriver BiDi listening on ws://127.0.0.1:54199
+Read port: 54223
+1695508514873	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54199/devtools/browser/54e34f34-d448-4dbb-92f8-ef3e10ad79e9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+1695508600825	Marionette	INFO	Stopped listening on port 54223
+Dynamically enable window occlusion 1
+1695509879227	geckodriver	INFO	Listening on 127.0.0.1:54652
+1695509882258	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54653" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Murodjon\\AppData\\Local\\Temp\\rust_mozprofileHtW75H"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695509882632	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695509882709	Marionette	INFO	Listening on port 54683
+WebDriver BiDi listening on ws://127.0.0.1:54653
+Read port: 54683
+1695509882947	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54653/devtools/browser/c99ce7f7-ee0b-4121-ab61-939f51548dcb
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://eamidentity.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://eamidentity.britishcouncil.org."
+console.error: ({})
+JavaScript warning: https://ieltsregistration.britishcouncil.org/static/js/main.9baf4b04.js, line 2: Script terminated by timeout at:
+c@https://ieltsregistration.britishcouncil.org/static/js/main.9baf4b04.js:2:1090634
+
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:352:17
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:573:17
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:352:17\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:573:17\n"
+1695509910784	Marionette	INFO	Stopped listening on port 54683
+Dynamically enable window occlusion 1
+1695509921466	geckodriver	INFO	Listening on 127.0.0.1:54833
+1695509924528	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54834" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Murodjon\\AppData\\Local\\Temp\\rust_mozprofile4ntppY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695509924892	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695509924978	Marionette	INFO	Listening on port 54861
+WebDriver BiDi listening on ws://127.0.0.1:54834
+Read port: 54861
+1695509925223	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54834/devtools/browser/029e1a7b-a96e-4fa6-9b63-4464cb8e8ac1
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+JavaScript warning: https://ieltsregistration.britishcouncil.org/static/js/main.9baf4b04.js, line 2: Script terminated by timeout at:
+c@https://ieltsregistration.britishcouncil.org/static/js/main.9baf4b04.js:2:1090634
+
+1695509987157	Marionette	INFO	Stopped listening on port 54861
+Dynamically enable window occlusion 1
+1695830788318	geckodriver	INFO	Listening on 127.0.0.1:49872
+1695830791417	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49873" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Murodjon\\AppData\\Local\\Temp\\rust_mozprofiles5zbuc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695830791958	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695830792075	Marionette	INFO	Listening on port 49934
+WebDriver BiDi listening on ws://127.0.0.1:49873
+Read port: 49934
+1695830792387	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49873/devtools/browser/7ec58252-fa0d-48ef-bd2f-a8c53d31054a
+1695830826321	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1695830830904	Marionette	INFO	Stopped listening on port 49934
+Dynamically enable window occlusion 1
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 324))

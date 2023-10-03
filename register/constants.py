@@ -1,7 +1,7 @@
 BASE_URL = "https://ieltsregistration.britishcouncil.org"
 
 # EMAIL = "murodjon.work@gmail.com"
-EMAIL = "murodbro1.work@gmail.com"
+EMAIL = "murodbro4.work@gmail.com"
 
 PASSWORD = "2/5*rfYHJw7RJyy"
 

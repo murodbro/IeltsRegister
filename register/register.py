@@ -150,12 +150,13 @@ class Register(webdriver.Firefox):
         exist = False
 
         try:
-            login_element = WebDriverWait(self, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'button[data-testid="go-to-LogIn"]')))
+            login_element = WebDriverWait(self, 7).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'button[data-testid="go-to-LogIn"]')))
             exist = True
             login_element.click()
         
         except Exception as e:
             print(str(e))
+            pass
 
         if exist:
             Register.login_user(self=self)
@@ -163,7 +164,10 @@ class Register(webdriver.Firefox):
         
         else:
             Register.user_authentication(self=self)
-
+            user_login = LoginUser(driver=self)
+            user_login.identification_details(passport=True)
+            user_login.identification(day=const.EXPIRE_DAY, month=const.EXPIRE_MONTH, year=const.EXPIRE_YEAR,
+            number=const.PASSPORT, issuing=const.ISSUING_AUTH, nation=const.COUNTRY)
 
 
 
