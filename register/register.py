@@ -13,9 +13,9 @@ from register.profile import Profile
 
 
 class Register(webdriver.Firefox):
-    # def __init__(self):
-    #     options = webdriver.ChromeOptions()
-    #     super().__init__(options=options)
+    def __init__(self):
+        options = webdriver.FirefoxOptions()
+        super().__init__(options=options)
 
 
     def get_url(self):
@@ -73,7 +73,7 @@ class Register(webdriver.Firefox):
 
         all_dates = []
         cases = True
-        all_elements = self.find_element(By.CLASS_NAME, "app-contents")
+        all_elements = WebDriverWait(self, 15).until(EC.visibility_of_element_located((By.CLASS_NAME, "app-contents")))
         exam_days = all_elements.find_elements(By.CSS_SELECTOR, 'h3[data-testid="lrw-date"]')
 
         for day in exam_days:
@@ -127,7 +127,7 @@ class Register(webdriver.Firefox):
         user_login.identification(day=const.EXPIRE_DAY, month=const.EXPIRE_MONTH, year=const.EXPIRE_YEAR,
             number=const.PASSPORT, issuing=const.ISSUING_AUTH, nation=const.COUNTRY)
         time.sleep(2)
-        user_login.upload_image(path="D:\doc\passport.jpg")
+        user_login.upload_image(path=const.PATH)
         user_login.button()
 
 
@@ -166,8 +166,12 @@ class Register(webdriver.Firefox):
             Register.user_authentication(self=self)
             user_login = LoginUser(driver=self)
             user_login.identification_details(passport=True)
-            user_login.identification(day=const.EXPIRE_DAY, month=const.EXPIRE_MONTH, year=const.EXPIRE_YEAR,
-            number=const.PASSPORT, issuing=const.ISSUING_AUTH, nation=const.COUNTRY)
+            user_auth = Authentication(driver=self)
+            user_auth.identification_create(issuing=const.ISSUING_AUTH, number=const.PASSPORT,
+                        day=const.EXPIRE_DAY, month=const.EXPIRE_MONTH, year=const.EXPIRE_YEAR, nation=const.COUNTRY)
+            user_auth.upload_image_create(path=const.PATH)
+            time.sleep(4)
+            user_auth.button_create()
 
 
 

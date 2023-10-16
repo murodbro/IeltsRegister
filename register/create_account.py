@@ -1,4 +1,6 @@
 import time
+import pyautogui
+
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -130,3 +132,51 @@ class Authentication:
                             '//div[@data-testid="page-container"]//button[@class="btn btn-primary"]')))
         continue_button.click()
 
+
+    def identification_create(self, number, day, month, year, issuing, nation):
+        number_element = self.driver.find_element(By.ID, "id-number")
+        number_element.send_keys(Keys.CONTROL + "a")
+        number_element.send_keys(Keys.DELETE)
+        number_element.send_keys(number)
+
+        day_element = self.driver.find_element(By.ID, "expiryDate-12")
+        day_element.send_keys(day)
+
+        month_element = self.driver.find_element(By.CSS_SELECTOR, 'select[data-testid="dateSelectorMonth"]')
+        month_element.send_keys(month)
+
+        year_element = self.driver.find_element(By.CSS_SELECTOR, 'input[data-testid="dateSelectorYear"]')
+        year_element.send_keys(year)
+
+        issuing_auth = self.driver.find_element(By.ID, "issuingAuthority-13")
+        issuing_auth.send_keys(Keys.CONTROL + "a")
+        issuing_auth.send_keys(Keys.DELETE)
+        issuing_auth.send_keys(issuing)
+
+        nationality = self.driver.find_element(By.XPATH,
+            '//div[@id="select-country"]//div[@class="select-search__value"]//input[@class="select-search__input"]')
+        nationality.send_keys(nation)
+        nationality.send_keys(Keys.ARROW_DOWN)
+        nationality.send_keys(Keys.RETURN)
+
+
+    def upload_image_create(self, path):
+        
+        choose_button = WebDriverWait(self.driver, 10).until(
+            EC.visibility_of_element_located((By.XPATH,
+                            '//div[@class="uppy-Root uppy-FileInput-container"]//button[@class="uppy-FileInput-btn"]')))
+        choose_button.click()
+        time.sleep(1)
+        pyautogui.write(path)
+        pyautogui.press('enter')
+    
+
+    def button_create(self):
+
+        continue_button = WebDriverWait(self.driver, 15).until(EC.visibility_of_element_located((By.XPATH,
+            '//div[@data-testid="page-container"]//button[@data-testid="save-and-continue"]')))
+        continue_button.click()
+
+        confirmation = WebDriverWait(self.driver, 15).until(EC.visibility_of_element_located((By.CSS_SELECTOR,
+                                    'button[data-testid="confirm-modal-submit"]')))
+        confirmation.click()

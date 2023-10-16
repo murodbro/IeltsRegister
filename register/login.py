@@ -100,7 +100,6 @@ class LoginUser:
         issuing_auth.send_keys(Keys.DELETE)
         issuing_auth.send_keys(issuing)
 
-
         nationality = self.driver.find_element(By.XPATH,
             '//div[@id="select-country"]//div[@class="select-search__value"]//input[@class="select-search__input"]')
         nationality.send_keys(nation)
