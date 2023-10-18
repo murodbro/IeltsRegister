@@ -17,7 +17,7 @@ class Authentication:
 
     def login(self):
 
-        login_element = WebDriverWait(self.driver, 15).until(EC.visibility_of_element_located((By.CSS_SELECTOR,'button[data-testid="go-to-LogIn"]')))
+        login_element = WebDriverWait(self.driver, 5).until(EC.visibility_of_element_located((By.CSS_SELECTOR,'button[data-testid="go-to-LogIn"]')))
         login_element.click()
 
 
@@ -162,13 +162,16 @@ class Authentication:
 
     def upload_image_create(self, path):
         
-        choose_button = WebDriverWait(self.driver, 10).until(
-            EC.visibility_of_element_located((By.XPATH,
-                            '//div[@class="uppy-Root uppy-FileInput-container"]//button[@class="uppy-FileInput-btn"]')))
-        choose_button.click()
-        time.sleep(1)
-        pyautogui.write(path)
-        pyautogui.press('enter')
+        try:
+            choose_button = WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.CLASS_NAME, "uppy-FileInput-btn")))
+            choose_button.click()
+
+            time.sleep(1)
+            pyautogui.write(path)
+            pyautogui.press('enter')
+
+        except Exception as e:
+            print(f"error: {e}")
     
 
     def button_create(self):

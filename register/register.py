@@ -10,6 +10,7 @@ from register import constants as const
 from register.create_account import Authentication
 from register.login import LoginUser
 from register.profile import Profile
+from register.result_data import Data
 
 
 class Register(webdriver.Firefox):
@@ -139,6 +140,28 @@ class Register(webdriver.Firefox):
         profile.occupation(country=const.COUNTRY)
         time.sleep(1)
         profile.button_pr()
+    
+
+    def else_function(self):
+
+        Register.user_authentication(self=self)
+        user_login = LoginUser(driver=self)
+        user_login.identification_details(passport=True)
+
+        user_auth = Authentication(driver=self)
+        user_auth.identification_create(issuing=const.ISSUING_AUTH, number=const.PASSPORT,
+                    day=const.EXPIRE_DAY, month=const.EXPIRE_MONTH, year=const.EXPIRE_YEAR, nation=const.COUNTRY)
+        user_auth.upload_image_create(path=const.PATH)
+        self.implicitly_wait(10)
+        time.sleep(4)
+        user_auth.button_create()
+
+        user_profile = Profile(driver=self)
+        self.implicitly_wait(15)
+        user_profile.about(language=const.LANGUAGE, studing_year=const.STUDING_YEAR, education_level=const.SECONDARY)
+        user_profile.occupation(country=const.COUNTRY)
+        time.sleep(1)
+        user_profile.button_pr()
 
     
     def check_account(self, email):
@@ -163,15 +186,9 @@ class Register(webdriver.Firefox):
             Register.prifile_details(self=self)
         
         else:
-            Register.user_authentication(self=self)
-            user_login = LoginUser(driver=self)
-            user_login.identification_details(passport=True)
-            user_auth = Authentication(driver=self)
-            user_auth.identification_create(issuing=const.ISSUING_AUTH, number=const.PASSPORT,
-                        day=const.EXPIRE_DAY, month=const.EXPIRE_MONTH, year=const.EXPIRE_YEAR, nation=const.COUNTRY)
-            user_auth.upload_image_create(path=const.PATH)
-            time.sleep(4)
-            user_auth.button_create()
+            Register.else_function(self=self)
+            data = Data(driver=self)
+            data.test_data()
 
 
 
