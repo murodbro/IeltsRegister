@@ -162,22 +162,19 @@ class Authentication:
 
     def upload_image_create(self, path):
         
-        try:
-            choose_button = WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.CLASS_NAME, "uppy-FileInput-btn")))
-            choose_button.click()
+        choose_button = WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.CLASS_NAME, "uppy-FileInput-btn")))
+        choose_button.click()
 
-            time.sleep(1)
-            pyautogui.write(path)
-            pyautogui.press('enter')
+        time.sleep(3)
+        pyautogui.write(path)
+        pyautogui.press('enter')
 
-        except Exception as e:
-            print(f"error: {e}")
     
-
     def button_create(self):
 
         continue_button = WebDriverWait(self.driver, 15).until(EC.visibility_of_element_located((By.XPATH,
             '//div[@data-testid="page-container"]//button[@data-testid="save-and-continue"]')))
+        time.sleep(1)
         continue_button.click()
 
         confirmation = WebDriverWait(self.driver, 15).until(EC.visibility_of_element_located((By.CSS_SELECTOR,

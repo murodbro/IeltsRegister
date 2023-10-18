@@ -15868,3 +15868,577 @@ rt@https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js:3212:35
 
 1697620417273	Marionette	INFO	Stopped listening on port 53776
 Dynamically enable window occlusion 1
+1697658999491	geckodriver	INFO	Listening on 127.0.0.1:61200
+1697659002556	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61201" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Murodjon\\AppData\\Local\\Temp\\rust_mozprofile7nnbHl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697659003095	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697659003211	Marionette	INFO	Listening on port 61235
+WebDriver BiDi listening on ws://127.0.0.1:61201
+Read port: 61235
+1697659003461	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61201/devtools/browser/3f7d9ff0-e901-430d-9483-a451debdd55b
+console.error: ({})
+JavaScript warning: https://cl.qualaroo.com/ki.js/60544/i6O.js, line 8: Script terminated by timeout at:
+appendIframeTag@https://cl.qualaroo.com/ki.js/60544/i6O.js:8:80082
+buildDNTFrame@https://cl.qualaroo.com/ki.js/60544/i6O.js:8:62112
+initSys@https://cl.qualaroo.com/ki.js/60544/i6O.js:8:63768
+_@https://cl.qualaroo.com/ki.js/60544/i6O.js:8:83638
+
+1697659014754	Marionette	INFO	Stopped listening on port 61235
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/translations-models list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1697659023496	geckodriver	INFO	Listening on 127.0.0.1:61333
+1697659026552	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61334" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Murodjon\\AppData\\Local\\Temp\\rust_mozprofileiBhGVe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697659027074	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697659027213	Marionette	INFO	Listening on port 61375
+WebDriver BiDi listening on ws://127.0.0.1:61334
+Read port: 61375
+1697659027483	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61334/devtools/browser/f1e422e3-e1d6-4f95-8c66-26c34093c110
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+JavaScript warning: https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js, line 3212: Script terminated by timeout at:
+rt@https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js:3212:3430
+
+1697660226979	Marionette	INFO	Stopped listening on port 61375
+Dynamically enable window occlusion 1
+profileCKurwZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697659301669	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697659301752	Marionette	INFO	Listening on port 61573
+WebDriver BiDi listening on ws://127.0.0.1:61543
+Read port: 61573
+1697659301994	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61543/devtools/browser/e9f0a2e1-84c1-4617-a324-6e8aa454ef99
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+JavaScript warning: https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js, line 3212: Script terminated by timeout at:
+rt@https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js:3212:3430
+
+1697659508237	Marionette	INFO	Stopped listening on port 61573
+Dynamically enable window occlusion 1
+1697659511071	geckodriver	INFO	Listening on 127.0.0.1:61742
+1697659514124	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61743" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Murodjon\\AppData\\Local\\Temp\\rust_mozprofilepf2qqN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697659514488	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697659514570	Marionette	INFO	Listening on port 61764
+WebDriver BiDi listening on ws://127.0.0.1:61743
+Read port: 61764
+1697659514835	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61743/devtools/browser/b6cf1dd9-ae7e-4201-8019-c2880225cbbe
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+JavaScript warning: https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js, line 3212: Script terminated by timeout at:
+rt@https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js:3212:3430
+
+1697659776753	Marionette	INFO	Stopped listening on port 61764
+Dynamically enable window occlusion 1
+1697659852154	geckodriver	INFO	Listening on 127.0.0.1:61950
+1697659855203	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61951" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Murodjon\\AppData\\Local\\Temp\\rust_mozprofilerlSfYi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697659855569	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697659855648	Marionette	INFO	Listening on port 61982
+WebDriver BiDi listening on ws://127.0.0.1:61951
+Read port: 61982
+1697659855904	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61951/devtools/browser/fca3e440-2534-4820-8f6f-980ecc6e6a25
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+JavaScript warning: https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js, line 3212: Script terminated by timeout at:
+rt@https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js:3212:3430
+
+1697660338024	Marionette	INFO	Stopped listening on port 61982
+Dynamically enable window occlusion 1
+profileCDmnKs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697660235355	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697660235433	Marionette	INFO	Listening on port 62201
+WebDriver BiDi listening on ws://127.0.0.1:62169
+Read port: 62201
+1697660235667	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62169/devtools/browser/faf845ec-1258-4ce1-9821-3b03dcb4a3ed
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+JavaScript warning: https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js, line 3212: Script terminated by timeout at:
+rt@https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js:3212:3430
+
+1697660730458	Marionette	INFO	Stopped listening on port 62201
+Dynamically enable window occlusion 1
+profilePlpB4j"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697660352586	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697660352668	Marionette	INFO	Listening on port 62379
+WebDriver BiDi listening on ws://127.0.0.1:62358
+Read port: 62379
+1697660352855	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62358/devtools/browser/1ef12b09-a986-4a31-a993-b40f8dd38cef
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+JavaScript warning: https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js, line 3212: Script terminated by timeout at:
+rt@https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js:3212:3430
+
+1697660421036	Marionette	INFO	Stopped listening on port 62379
+Dynamically enable window occlusion 1
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:352:17
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:352:17\n"
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+1697660471462	geckodriver	INFO	Listening on 127.0.0.1:62579
+1697660474524	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62580" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Murodjon\\AppData\\Local\\Temp\\rust_mozprofileVzY3ft"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697660474882	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697660474961	Marionette	INFO	Listening on port 62611
+WebDriver BiDi listening on ws://127.0.0.1:62580
+Read port: 62611
+1697660475203	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62580/devtools/browser/0517d186-4873-43c7-a326-57f6a6ebf247
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+JavaScript warning: https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js, line 3212: Script terminated by timeout at:
+rt@https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js:3212:3430
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1697661699471	Marionette	INFO	Stopped listening on port 62611
+Dynamically enable window occlusion 1
+inRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+JavaScript warning: https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js, line 3212: Script terminated by timeout at:
+rt@https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js:3212:3430
+
+1697660815389	Marionette	INFO	Stopped listening on port 62788
+Dynamically enable window occlusion 1
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:352:17
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:352:17\n"
+1697661014976	geckodriver	INFO	Listening on 127.0.0.1:62989
+1697661018010	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62990" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Murodjon\\AppData\\Local\\Temp\\rust_mozprofile792feA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697661018382	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697661018462	Marionette	INFO	Listening on port 63012
+WebDriver BiDi listening on ws://127.0.0.1:62990
+Read port: 63012
+1697661018716	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62990/devtools/browser/1a78dc19-e1bc-44be-aaff-f1d551d0f035
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+JavaScript warning: https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js, line 3212: Script terminated by timeout at:
+rt@https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js:3212:3430
+
+1697661121061	Marionette	INFO	Stopped listening on port 63012
+Dynamically enable window occlusion 1
+1697661199400	geckodriver	INFO	Listening on 127.0.0.1:63171
+1697661202463	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63172" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Murodjon\\AppData\\Local\\Temp\\rust_mozprofilewHgwsG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697661202828	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697661202906	Marionette	INFO	Listening on port 63201
+WebDriver BiDi listening on ws://127.0.0.1:63172
+Read port: 63201
+1697661203155	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63172/devtools/browser/6f088bb2-63e9-472b-b371-1333cf52b87d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+JavaScript warning: https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js, line 3212: Script terminated by timeout at:
+rt@https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js:3212:3430
+
+1697661529041	Marionette	INFO	Stopped listening on port 63201
+Dynamically enable window occlusion 1
+1697661533543	geckodriver	INFO	Listening on 127.0.0.1:63413
+1697661536574	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63414" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Murodjon\\AppData\\Local\\Temp\\rust_mozprofileGXortK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697661536954	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697661537034	Marionette	INFO	Listening on port 63436
+WebDriver BiDi listening on ws://127.0.0.1:63414
+Read port: 63436
+1697661537388	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63414/devtools/browser/41f86e2b-82d5-45d3-a5dd-9649018ddf44
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+JavaScript warning: https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js, line 3212: Script terminated by timeout at:
+rt@https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js:3212:3430
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1697665041023	Marionette	INFO	Stopped listening on port 63436
+Dynamically enable window occlusion 1
+inRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-D7Z2879N2D&l=dataLayer&cx=c, line 174: Script terminated by timeout at:
+h@https://www.googletagmanager.com/gtag/js?id=G-D7Z2879N2D&l=dataLayer&cx=c:174:184
+$o@https://www.googletagmanager.com/gtag/js?id=G-D7Z2879N2D&l=dataLayer&cx=c:392:416
+bw@https://www.googletagmanager.com/gtag/js?id=G-D7Z2879N2D&l=dataLayer&cx=c:437:411
+wF/<@https://www.googletagmanager.com/gtag/js?id=G-D7Z2879N2D&l=dataLayer&cx=c:572:153
+aa.uk/<@https://www.googletagmanager.com/gtag/js?id=G-D7Z2879N2D&l=dataLayer&cx=c:525:126
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-D7Z2879N2D&l=dataLayer&cx=c:524:420
+rt@https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js:3212:3581
+
+1697661988744	Marionette	INFO	Stopped listening on port 63689
+Dynamically enable window occlusion 1
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:352:17
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:352:17\n"
+1697663283489	geckodriver	INFO	Listening on 127.0.0.1:64019
+1697663286546	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64020" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Murodjon\\AppData\\Local\\Temp\\rust_mozprofileH3jO9E"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697663286897	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697663286977	Marionette	INFO	Listening on port 64045
+WebDriver BiDi listening on ws://127.0.0.1:64020
+Read port: 64045
+1697663287212	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64020/devtools/browser/6f593f26-3091-4893-8885-0520976766fe
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+JavaScript warning: https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js, line 3212: Script terminated by timeout at:
+rt@https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js:3212:3430
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1697665036857	Marionette	INFO	Stopped listening on port 64045
+Dynamically enable window occlusion 1
+inRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+JavaScript warning: https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js, line 3212: Script terminated by timeout at:
+rt@https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js:3212:3430
+
+1697663648791	Marionette	INFO	Stopped listening on port 64248
+Dynamically enable window occlusion 1
+1697663654377	geckodriver	INFO	Listening on 127.0.0.1:64435
+1697663657430	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64436" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Murodjon\\AppData\\Local\\Temp\\rust_mozprofileeDUNkD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697663657763	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697663657840	Marionette	INFO	Listening on port 64455
+WebDriver BiDi listening on ws://127.0.0.1:64436
+Read port: 64455
+1697663658098	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64436/devtools/browser/6df15e94-42b4-4bdb-a3b7-4f83c891613d
+console.error: ({})
+console.warn: services.settings: main/translations-models Signature verified failed. Retry from scratch
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-D7Z2879N2D&l=dataLayer&cx=c, line 181: Script terminated by timeout at:
+C@https://www.googletagmanager.com/gtag/js?id=G-D7Z2879N2D&l=dataLayer&cx=c:181:35
+C@https://www.googletagmanager.com/gtag/js?id=G-D7Z2879N2D&l=dataLayer&cx=c:181:190
+C@https://www.googletagmanager.com/gtag/js?id=G-D7Z2879N2D&l=dataLayer&cx=c:181:147
+jw@https://www.googletagmanager.com/gtag/js?id=G-D7Z2879N2D&l=dataLayer&cx=c:438:251
+iw.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-D7Z2879N2D&l=dataLayer&cx=c:442:263
+iw.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-D7Z2879N2D&l=dataLayer&cx=c:440:207
+bw@https://www.googletagmanager.com/gtag/js?id=G-D7Z2879N2D&l=dataLayer&cx=c:437:434
+wF/<@https://www.googletagmanager.com/gtag/js?id=G-D7Z2879N2D&l=dataLayer&cx=c:572:153
+aa.uk/<@https://www.googletagmanager.com/gtag/js?id=G-D7Z2879N2D&l=dataLayer&cx=c:525:126
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-D7Z2879N2D&l=dataLayer&cx=c:524:420
+rt@https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js:3212:3581
+
+1697663730410	Marionette	INFO	Stopped listening on port 64455
+Dynamically enable window occlusion 1
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:352:17
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:352:17\n"
+1697664004515	geckodriver	INFO	Listening on 127.0.0.1:64670
+1697664007563	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64671" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Murodjon\\AppData\\Local\\Temp\\rust_mozprofileAgN8XF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697664008085	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697664008177	Marionette	INFO	Listening on port 64699
+WebDriver BiDi listening on ws://127.0.0.1:64671
+Read port: 64699
+1697664008463	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64671/devtools/browser/42c8e2c0-f310-46d7-8761-b031027955f0
+console.error: ({})
+console.warn: services.settings: main/translations-models Signature verified failed. Retry from scratch
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+JavaScript warning: https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js, line 3212: Script terminated by timeout at:
+rt@https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js:3212:3430
+
+1697664672560	Marionette	INFO	Stopped listening on port 64699
+Dynamically enable window occlusion 1
+1697665095521	geckodriver	INFO	Listening on 127.0.0.1:64960
+1697665098553	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64961" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Murodjon\\AppData\\Local\\Temp\\rust_mozprofileDfj1y0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697665098899	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697665098970	Marionette	INFO	Listening on port 64988
+WebDriver BiDi listening on ws://127.0.0.1:64961
+Read port: 64988
+1697665099141	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64961/devtools/browser/c66bcc8c-a296-488b-8cc6-b6e00a6e27d6
+console.error: ({})
+console.warn: services.settings: main/translations-models Signature verified failed. Retry from scratch
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1697665611966	Marionette	INFO	Stopped listening on port 64988
+Dynamically enable window occlusion 1
+97665322714	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65168/devtools/browser/2b0826af-d874-41bf-ac3e-ba17f265499f
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js, line 3212: Script terminated by timeout at:
+rt@https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js:3212:3430
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1697665819275	Marionette	INFO	Stopped listening on port 65199
+Dynamically enable window occlusion 1
