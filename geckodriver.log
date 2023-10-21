@@ -24219,180 +24219,77 @@ JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS
 JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
 JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
 JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
- TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-console.error: RemoteSecuritySettings.jsm: 
-  Failed to download attachment: TypeError: NetworkError: Network request failed
-1697928800037	geckodriver	INFO	Listening on 127.0.0.1:57852
-1697928803071	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57853" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Murodjon\\AppData\\Local\\Temp\\rust_mozprofileipn2Ez"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1697928803333	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1697928803398	Marionette	INFO	Listening on port 57882
-WebDriver BiDi listening on ws://127.0.0.1:57853
-Read port: 57882
-1697928803556	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:57853/devtools/browser/6dcd8560-b4a7-4c71-947d-4c9ba16d69db
-console.error: ({})
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://eamidentity.britishcouncil.org."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://eamidentity.britishcouncil.org."
-console.error: ({})
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
 JavaScript warning: https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js, line 3212: Script terminated by timeout at:
 rt@https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js:3212:3430
 
-1697928903447	Marionette	INFO	Stopped listening on port 57882
+1697930524964	Marionette	INFO	Stopped listening on port 57366
 Dynamically enable window occlusion 1
-1697929012594	geckodriver	INFO	Listening on 127.0.0.1:58074
-1697929015650	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58075" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Murodjon\\AppData\\Local\\Temp\\rust_mozprofilesOJBzb"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1697929015910	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1697929015974	Marionette	INFO	Listening on port 58106
-WebDriver BiDi listening on ws://127.0.0.1:58075
-Read port: 58106
-1697929016047	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:58075/devtools/browser/fc5bf871-a661-4340-87a5-8bee35e3440e
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://eamidentity.britishcouncil.org."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://eamidentity.britishcouncil.org."
-console.error: ({})
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ieltsregistration.britishcouncil.org."
-JavaScript warning: https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js, line 3212: Script terminated by timeout at:
-rt@https://ieltsregistration.britishcouncil.org/assets/index-a470456f.js:3212:3430
-
-1697929111015	Marionette	INFO	Stopped listening on port 58106
-Dynamically enable window occlusion 1
-1697929260803	geckodriver	INFO	Listening on 127.0.0.1:58348
-1697929263826	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58349" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Murodjon\\AppData\\Local\\Temp\\rust_mozprofileAIzwMw"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1697929264064	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1697929264120	Marionette	INFO	Listening on port 58375
-WebDriver BiDi listening on ws://127.0.0.1:58349
+ on ws://127.0.0.1:58349
 Read port: 58375
 1697929264314	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 DevTools listening on ws://127.0.0.1:58349/devtools/browser/90b5f9ce-4e9c-4c6b-98f9-9dc42bffcebb
