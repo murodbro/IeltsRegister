@@ -160,13 +160,23 @@ class Authentication:
         nationality.send_keys(Keys.RETURN)
 
 
-    def upload_image_create(self, path):
+    def upload_image_create(self, path_one, path_two):
         
+        time.sleep(1)
         choose_button = WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.CLASS_NAME, "uppy-FileInput-btn")))
         choose_button.click()
 
         time.sleep(3)
-        pyautogui.write(path)
+        pyautogui.write(path_one)
+        pyautogui.press('enter')
+
+        time.sleep(2)
+
+        choose_button = WebDriverWait(self.driver, 15).until(EC.visibility_of_element_located((By.CLASS_NAME, "uppy-FileInput-btn")))
+        choose_button.click()
+
+        time.sleep(3)
+        pyautogui.write(path_two)
         pyautogui.press('enter')
 
     

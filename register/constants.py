@@ -59,4 +59,6 @@ DEGREE = "Degree"
 
 POST_GRAD = "Post_graduate"
 
-PATH = "D:\doc\passport.jpg"
+PATH_1 = "D:\doc\passport1.jpg"
+
+PATH_2 = "D:\doc\passport2.jpg"

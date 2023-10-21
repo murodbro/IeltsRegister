@@ -128,7 +128,8 @@ class Register(webdriver.Firefox):
         user_login.identification(day=const.EXPIRE_DAY, month=const.EXPIRE_MONTH, year=const.EXPIRE_YEAR,
             number=const.PASSPORT, issuing=const.ISSUING_AUTH, nation=const.COUNTRY)
         time.sleep(2)
-        user_login.upload_image(path=const.PATH)
+        user_login.upload_image(path_one=const.PATH_1)
+        time.sleep(2)
         user_login.button()
 
 
@@ -151,7 +152,7 @@ class Register(webdriver.Firefox):
         user_auth = Authentication(driver=self)
         user_auth.identification_create(issuing=const.ISSUING_AUTH, number=const.PASSPORT,
                     day=const.EXPIRE_DAY, month=const.EXPIRE_MONTH, year=const.EXPIRE_YEAR, nation=const.COUNTRY)
-        user_auth.upload_image_create(path=const.PATH)
+        user_auth.upload_image_create(path_one=const.PATH_1, path_two=const.PATH_2)
         self.implicitly_wait(10)
         time.sleep(4)
         user_auth.button_create()
@@ -184,11 +185,13 @@ class Register(webdriver.Firefox):
         if exist:
             Register.login_user(self=self)
             Register.prifile_details(self=self)
+            data = Data(driver=self)
+            data.exam_date_user()
         
         else:
             Register.else_function(self=self)
             data = Data(driver=self)
-            data.test_data()
+            data.exam_date_ceated_user
 
 
 

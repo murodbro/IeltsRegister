@@ -1,4 +1,5 @@
 import time
+import pyautogui
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -30,6 +31,7 @@ class LoginUser:
         password_element = self.driver.find_element(By.ID, "password_login")
         password_element.send_keys(password)
 
+        time.sleep(2)
         button = self.driver.find_element(By.ID, "btn-login")
         button.click()
 
@@ -40,7 +42,7 @@ class LoginUser:
         if not(myself == True and my_child == True):
 
             if myself:
-                myself_element = WebDriverWait(self.driver, 15).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'input[data-testid="for-myself"]')))
+                myself_element = WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'input[data-testid="for-myself"]')))
                 myself_element.click()
 
             elif my_child:
@@ -105,33 +107,26 @@ class LoginUser:
         nationality.send_keys(Keys.RETURN)
 
     
-    def upload_image(self, path):
-
-        choose_button = self.driver.find_element(By.XPATH,
-            '//div[@class="uppy-Root uppy-FileInput-container"]//input[@class="uppy-FileInput-input"]')
-        choose_button.clear()
-        choose_button.send_keys(path)
+    def upload_image(self, path_one):
 
         try:
-            time.sleep(3)
-            remove_file = WebDriverWait(self.driver, 60).until(EC.visibility_of_element_located((By.XPATH,
-                    '//div[@data-testid="upload-back"]//button[@class="btn-link link"]')))
-            exist = True
-            time.sleep(2)
-            if exist:
-                remove_file.click()
-            time.sleep(2)
-        except Exception as e:
-            print(str(e))
+            time.sleep(1)
+            choose_button = WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.CLASS_NAME, "uppy-FileInput-btn")))
+            choose_button.click()
 
+            time.sleep(3)
+            pyautogui.write(path_one)
+            pyautogui.press('enter')
+        except Exception as e:
+            print(f'error: ')
 
     def button(self):
 
-        continue_button = WebDriverWait(self.driver, 15).until(EC.visibility_of_element_located((By.XPATH,
-            '//div[@data-testid="page-container"]//button[@data-testid="save-and-continue"]')))
+        continue_button = WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR,
+                                    'button[data-testid="save-and-continue"]')))
         continue_button.click()
 
-        confirmation = WebDriverWait(self.driver, 15).until(EC.visibility_of_element_located((By.CSS_SELECTOR,
+        confirmation = WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located((By.CSS_SELECTOR,
                                     'button[data-testid="confirm-modal-submit"]')))
         confirmation.click()
 
